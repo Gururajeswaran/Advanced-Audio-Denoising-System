@@ -1075,7 +1075,7 @@ def main():
 
             ### Processing Modes:
 
-            ** Classical Filtering Only (Fast ⚡)**
+            **Classical Filtering Only (Fast ⚡)**
             - Spectral Subtraction, Wiener Filter, Wavelets
             - Very fast, works on any hardware
             - Good for most use cases
@@ -1085,7 +1085,7 @@ def main():
             - Adds 2-5 seconds processing time
             - Best balance of speed and quality
 
-            ** Heavy Enhancement (Demucs)**
+            **Heavy Enhancement (Demucs)**
             - Classical Filtering + state-of-the-art deep learning
             - Slow on CPU, fast on GPU
             - Best possible quality
@@ -1136,3 +1136,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
