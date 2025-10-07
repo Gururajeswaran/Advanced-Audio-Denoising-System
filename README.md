@@ -1,6 +1,8 @@
 
 ## 🔊 Advanced-Audio-Denoising-System
 
+## Denoiser app hosted on : https://advanced-audio-denoising-system.streamlit.app/
+## Noise mixer hosted on : https://noise-mixer.streamlit.app/
 ### 📖 Overview
 
 This project focuses on **speech enhancement and noise reduction** to improve the clarity and intelligibility of audio signals in noisy environments.
