@@ -1,0 +1,23 @@
+# Core
+numpy
+scipy
+torch
+torchaudio
+soundfile
+pydub
+
+# Audio Processing
+librosa
+noisereduce
+pystoi
+torchmetrics
+
+# Visualization
+matplotlib
+plotly
+
+# Interface
+streamlit
+
+# Utility
+tempfile
