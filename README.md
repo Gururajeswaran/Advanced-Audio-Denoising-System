@@ -84,7 +84,7 @@ streamlit run app.py
 
 ### 3. Use the Interface
 
-* Upload a noisy **speech audio file**
+* Upload a noisy **speech audio file** (using **noisy.py**)
 * Choose an enhancement **mode** (Fast / Enhanced / Deep Learning)
 * Click **Process** to apply noise reduction
 * View the waveform, spectrogram, and metric results
@@ -118,4 +118,3 @@ It provides a practical foundation for applications in **voice communication**, 
 
 ---
 
-Would you like me to generate the matching **requirements.txt** file (based on these dependencies) next?
