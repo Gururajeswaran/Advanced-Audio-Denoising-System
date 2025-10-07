@@ -113,9 +113,6 @@ def estimate_noise_profile(audio, sr, noise_duration=0.5):
     return noise_sample
 
 
-# ============================================================================
-# DSP PROCESSING METHODS
-# ============================================================================
 
 def spectral_subtraction(audio, sr, noise_sample, alpha=2.0, beta=0.1):
     """
@@ -892,7 +889,7 @@ def main():
 
                         progress_bar.progress(80)
                     else:
-                        st.error("❌ Demucs not installed. Using DSP only.")
+                        st.error("❌ Demucs not installed. Using Classic Filtering only.")
                         progress_bar.progress(80)
 
                 # Final normalization
@@ -1024,7 +1021,7 @@ def main():
                     st.write("**Mode:**")
                     st.write(f"- {processing_mode}")
 
-                    st.write("\n**DSP Methods Applied:**")
+                    st.write("\n**Classic Filtering Methods Applied:**")
                     if use_spectral:
                         st.write(f"- ✅ Spectral Subtraction (α={spectral_alpha}, β={spectral_beta})")
                     if use_wiener:
@@ -1065,9 +1062,9 @@ def main():
 
             1. **Upload Audio**: Click the upload button and select your MP3 or WAV file
             2. **Select Mode**: 
-               - **DSP Only**: Fast, pure signal processing
-               - **Light Enhancement**: DSP + NoiseReduce (recommended)
-               - **Heavy Enhancement**: DSP + Demucs (best quality, slowest)
+               - **Classic Filtering Only**: Fast, pure signal processing
+               - **Light Enhancement**: Classic Filtering + NoiseReduce (recommended)
+               - **Heavy Enhancement**: Classic Filtering + Demucs (best quality, slowest)
             3. **Choose Preset** (or customize):
                - **Light Cleaning**: Gentle noise reduction
                - **Medium Denoising**: Balanced approach (default)
@@ -1103,7 +1100,7 @@ def main():
 
         with st.expander("Technical Information"):
             st.markdown("""
-            ### DSP Methods:
+            ### Classic Filtering Methods:
 
             1. **Spectral Subtraction**: Frequency-domain noise removal
             2. **Wiener Filter**: Optimal MMSE filtering
@@ -1137,4 +1134,5 @@ def main():
             """)
 # Run the app
 if __name__ == "__main__":
+
     main()
