@@ -11,6 +11,7 @@ librosa
 noisereduce
 pystoi
 torchmetrics
+PyWavelets
 
 # Visualization
 matplotlib
@@ -19,5 +20,5 @@ plotly
 # Interface
 streamlit
 
-
-
+# System / Utility
+ffmpeg-python
