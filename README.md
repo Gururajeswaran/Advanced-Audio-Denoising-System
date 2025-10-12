@@ -103,7 +103,7 @@ streamlit run app.py
 
 ---
 ## Samples:
-### Original audio : [What are speech sounds  phones_ - Introduction phonetics and phonology (1).mp3](https://github.com/user-attachments/files/22873185/What.are.speech.sounds.phones_.-.Introduction.phonetics.and.phonology.1.mp3)
+### Original audio : [original_audio.mp3](https://github.com/user-attachments/files/22873185/What.are.speech.sounds.phones_.-.Introduction.phonetics.and.phonology.1.mp3)
 ### Noisy audio : [noisy_audio (1).mp3](https://github.com/user-attachments/files/22873186/noisy_audio.1.mp3)
 ### Denoised output : [denoised_output (3).wav](https://github.com/user-attachments/files/22873187/denoised_output.3.wav)
 
